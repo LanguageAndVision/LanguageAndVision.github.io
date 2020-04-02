@@ -1659,7 +1659,7 @@
 		font-weight: 700;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1785,7 +1785,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #e5474b;
+		color: #666699;
 	}
 
 	blockquote {
@@ -1794,7 +1794,7 @@
 
 	code {
 		background: none;
-		border-color: #e5474b;
+		border-color: #666699;
 	}
 
 	hr {
@@ -3103,7 +3103,8 @@
 	}
 
 	#header {
-		background: #1c1c1c;
+		/* background: #5276b7cc; */
+		background:#6689ca;
 		color: #d5d5d5;
 		cursor: default;
 		height: 4.5em;
@@ -3117,6 +3118,7 @@
 	}
 
 		#header .inner {
+			line-height: 6em;
 			max-width: 65em;
 			width: calc(100% - 6em);
 			margin: 0 auto;
@@ -3133,7 +3135,6 @@
 			}
 
 		#header .logo {
-			font-family: 'Roman', cursive;
 			display: inline-block;
 			height: inherit;
 			left: 0;
@@ -3142,7 +3143,7 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
-			color: #e5474b;
+			color: white;
 			font-size: 1.75em;
 			text-transform: capitalize;
 			font-weight: normal;
@@ -3150,7 +3151,7 @@
 		}
 
 			#header .logo:hover {
-				color: rgba(229, 71, 75, 0.75);
+				color:#c1c1c1;
 			}
 
 		#header a {
@@ -3158,7 +3159,7 @@
 			-webkit-transition: color 0.2s ease-in-out;
 			-ms-transition: color 0.2s ease-in-out;
 			transition: color 0.2s ease-in-out;
-			display: inline-block;
+			/* display: inline-block; */
 			padding: 0 2em;
 			color: #ffffff;
 			text-decoration: none;
@@ -3378,7 +3379,7 @@
 		position: relative;
 		z-index: 9999;
 		margin-top: -2em;
-		margin-bottom: -2em;
+		margin-bottom: 5em;
 	}
 
 		#banner input, #banner select, #banner textarea {
@@ -3492,8 +3493,6 @@
 			display: block;
 			top: 0;
 			left: 0;
-			background-color: #0c0c0c;
-			opacity: 0.25;
 		}
 
 		#banner .inner {
@@ -3525,6 +3524,10 @@
 			#banner h1 span {
 				font-weight: 400;
 			}
+		
+		.subtitle{
+			font-family: 'maiandra GD';
+		}
 
 		body.is-loading #banner:after {
 			opacity: 1;
